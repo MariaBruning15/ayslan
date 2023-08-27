@@ -1,0 +1,108 @@
+.div-logo {
+    height: 120px;
+    width: auto;
+    background-color: #1A4A65;
+    position: relative;
+}
+
+.logo {
+    height: 75px;
+    width: 220px;
+    display: inline-block;
+}
+.login-link{
+height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color:rgb(251, 253, 253);
+    text-decoration: none;
+}
+.cadastro-link {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: rgb(251, 253, 253);
+    text-decoration: none;
+}
+.tools {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.carrinho,
+.ferramenta {
+    margin-left: 10px;
+}
+
+
+.ferramenta-img {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.perfil-img {
+    height: 60px;
+        width: 60px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+.carrinho-img{
+    height: 40px;
+        width: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+}
+.home-img{
+   margin-left: 20px;
+   margin-bottom: 0%;
+   margin-top: 0%;
+    }
+    .home{
+        height: 30px;
+        
+
+    }
+    .textbox {
+        height: 20px;
+        width: 200px;
+        margin-left: 10px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+    
+       
+    }
+    
+
+.grupo-link {
+    flex: 1; /* Distribui espaço igualmente entre os links */
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 50px;
+    color: rgb(251, 253, 253);
+    text-decoration: none;
+    
+}
+
+
+.grupo-link:hover {
+    color: rgb(109, 109, 107); 
+}
+
+.duvida-img {
+    position: absolute;
+    bottom: 10px; /* Ajuste conforme necessário */
+    right: 10px;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
