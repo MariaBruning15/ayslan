@@ -1,8 +1,4 @@
-<?php
-setcookie("email");
-setcookie("senha");
-?>
-
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,7 +15,7 @@ setcookie("senha");
 
 
     <div class="flex-container">
-        <form action="index.php" method="post">
+        <form action="validalogin.php" method="post">
             <div class="flex-item">
                 <input type="text" name="email" placeholder="email" class="texto"> <br>
                 <input type="password" name="senha" placeholder="senha" class="texto"><br>
