@@ -15,9 +15,10 @@
 
 
     <div class="flex-container">
-        <form action="validalogin.php" method="post">
-            <div class="flex-item">
-                <input type="text" name="email" placeholder="email" class="texto"> <br>
+        <form action="./bancodedados/validalogin.php" method="post">
+            <div class="col">
+                <span class="input-group-text" id="basic-addon1">E-mail</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
                 <input type="password" name="senha" placeholder="senha" class="texto"><br>
 
             </div>
