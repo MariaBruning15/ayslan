@@ -8,6 +8,7 @@ setcookie("senha");
 <html lang="en">
 
 <head>
+
     <?php include_once 'includes/metadados.php' ?>
     <title>Cadastro</title>
 </head>
@@ -19,7 +20,7 @@ setcookie("senha");
     <p class="p">Realizar <a href="login.php" class="link">login</a></p>
 
     <div class="flex-container">
-        <form action="index.php" action="post">
+        <form action="./includes/inserir.php" method="POST">
             <div class="flex-item">
 
                 <input type="text" name="nome" placeholder="nome de usuário" class="texto"><br>
@@ -46,19 +47,6 @@ setcookie("senha");
                 <label for="">Ficção Científica</label> <input type="checkbox" class="checkbox">
                 <label for="">Biografia</label> <input type="checkbox" class="checkbox">
                 <label for="">Romance</label> <input type="checkbox" class="checkbox"><br> <br>
-
-                <!---<section>
-                    <img src="captcha.php"><br>
-                    <input type="text" name="captcha" class="texto" placeholder="inserir o captcha">
-                    <br><br>
-                    <button class="button1" onclick="validar.php">
-                        Validar Captcha
-                    </button> <br> <br>
-                </section>
-                --->
-
-
-
                 <input type="submit" class="button" value="Concluir"><br>
                 <input type="reset" class="button" value="Resetar"><br>
 
