@@ -9,42 +9,45 @@
 <body>
 
     <?php
-    $senha = $_POST["senha"];
-    $email = $_POST["email"];
 
-    $host = "localhost"; 
-    $database = "database"; 
-    $usuario = "root"; 
-    $senha = ""; 
+    $host = "localhost";
+    $database = "database";
+    $usuario = "root";
+    $senha = "";
     $con = new mysqli($host, $usuario, $senha, $database);
 
-     if($con->connect_error) {
+    $email = trim($_POST["email"]);
+    $senha = trim($_POST["senha"]);
+
+    if ($con->connect_error) {
     ?>
         <h1>Erro</h1>
         <a href="login.php">Tentar novamente</a>
     <?php
     }
-    $sql = "SELECT email, senha FROM cadastros";
+    $sql = "SELECT * FROM cadastros WHERE email = '" .  $email . "'";
     $result = $con->query($sql);
 
     if ($result->num_rows > 0) {
-        while ($linha = $result->fetch_assoc()) {
-            if ($email == $linha['email']  && $senha == $linha['senha']) {
-                header('Location: index.php');
-                exit;
-            } else if ($email != $linha['email'] && $senha != $linha['senha']) {
-        ?>
+        while($linha = $result->fetch_assoc()){
+        if ($senha == $linha['senha']) {
+            header('Location: index.php');
+        
+    } else {
+    ?>
 
         <h1>Login errado</h1>
         <a href="login.php">Tentar novamente</a>
 
+
     <?php
-            }
-        }
+        die();
     }
+  }
+  }
 
     ?>
-   
+
 
 </body>
 
