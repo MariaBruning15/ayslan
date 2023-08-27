@@ -1,0 +1,199 @@
+.livro{
+    width:50%;
+  
+   }
+   .nome{
+    color: #1A4A65;
+    margin-left: 360px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 40px;
+    font-weight: bold;
+    width: 300px;
+    font-size: 30px;
+   
+   }
+   .autora{
+    color: #3A7A8E;
+    margin-left: 60px;
+    margin-top:40px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   .img2{
+    width: 300px;
+    height: 450px;
+    margin-left: 30px;
+    margin-top: 100px;
+   }
+   .estrelas{
+    margin-left: 110px;
+    height: 50px;
+    width: 130px;
+   }
+   
+   .img1{
+    width: 300px;
+    height: 450px;
+    margin-left: 50px;
+   }
+   .img-livro{
+    width:40%;
+    float:left;
+
+    text-align:center;
+   }
+
+   .img-livro2{
+    width:30%;
+    float:left;
+    text-align:center;
+
+   }
+   .detalhes-livro{
+    float:right;
+    width:60%;
+   
+    
+   }
+.linha{
+ padding-top:100px;
+   display:flex;
+    flex-flow:row;
+}
+.p1{
+    color:#1A4A65;
+    font-weight: bold;
+    font-size: 46px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.baixo-livros{
+    background-color: #B1CCD4;
+    width: 1550px;
+    height: 700px;
+  
+}
+.livro1{
+    height: 500px;
+    width: 300px;
+    display: flex; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+.livro1-img {
+    
+    margin-left: 70px;
+    margin-top: 300px;
+}
+
+.livro1-estrela{
+    margin-left: 86px;
+    height: 40px;
+}
+ .introducao{
+font-size: 20px;
+margin-left: 60px;
+width: 300px;
+margin-top: 150px;
+
+ }
+ .avaliacoes{
+    color: #8D7608;
+    margin-left: 118px;
+    margin-top:-20px;
+    margin-bottom: 40px;
+ }
+ .livro2-img{
+    margin-left: 2000px;
+    margin-top: 100px;
+    display: inline-block;
+ }
+ .livro2{
+    height: 500px;
+    width: 300px;
+    display: flex; 
+    align-items: center; 
+    margin-top: 20px; 
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.livro2-img {
+    
+    margin-left: 500px;
+    margin-top: -300px;
+    display: inline-block;
+    height: 200px;
+
+}
+
+
+.introducao2{
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top:-20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.livro2-estrela{
+    margin-left: 160px;
+    height: 40px;
+}
+.avaliacoes2{
+    color: #8D7608;
+    margin-left: 150px;
+    margin-top:-20px;
+    margin-bottom: 40px;
+}
+.autora2{
+    color: #3A7A8E;
+    margin-left: 80px;
+    margin-top:-40px;
+    margin-bottom: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lancamento-livros{
+    background-color: #B1CCD4;
+    height: 550px;
+    width: 800px;
+    margin-top: 50px;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+.livronovo-img{
+margin-left: 50px;
+margin-top: 90px;
+
+}
+.lancamento{
+    color:#1A4A65;
+    margin-left: 340px;
+    margin-top: -400px; 
+    height: 500px;
+    width: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    
+    
+}
+.introducao-novo{
+    width: 300px;
+    height: 300px;
+    font-size: 25px;
+    margin-left: 10px;
+ margin-top: 15px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+.botao{
+    margin-top: 80px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
