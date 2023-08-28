@@ -3,13 +3,14 @@
 
 <head>
     <?php include_once 'includes/metadados.php' ?>
+    <link rel="stylesheet" type="text/css" href="./css/nav.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="div-logo">
 
-        <img class="logo" src="./imgs/logo.png">
+        <a href="index.php"><img class="logo" src="./imgs/logo.png"></a>
         <div class="tools">
             <div class="cadastro">
                 <a href="cadastro.php" class="cadastro-link"> Cadastro </a>

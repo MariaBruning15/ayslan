@@ -3,6 +3,7 @@
 
 <head>
     <?php include_once 'includes/metadados.php' ?>
+    <link rel="stylesheet" type="text/css" href="./css/autores.css">
     <title>Autores</title>
 </head>
 

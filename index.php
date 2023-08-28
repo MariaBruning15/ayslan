@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <<?php include_once 'includes/metadados.php' ?> <title>Document</title>
+    <?php include_once 'includes/metadados.php'?> 
+    <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+    <title>Bookverso</title>
 </head>
 
 <body>
-
     <?php
     include_once 'navbar.php';
     ?>

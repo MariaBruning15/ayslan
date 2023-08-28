@@ -43,7 +43,7 @@
                 entre os 30 para os quais foram nomeados, e é a
                 franquia cinematográfica mais premiada da história
             </p><br>
-            <img src="./imgs/autor6.webp" alt="" style="width:200px;Height:200px;float:left;width:190px; height:250px;margin-right:20px">
+            <img src="./imgs/autor5.jpg" alt="" style="width:200px;Height:200px;float:left;width:190px; height:250px;margin-right:20px">
             <br>
             <h2 style="color: #3A478E;
     text-align: center;
