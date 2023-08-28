@@ -1,0 +1,32 @@
+.texto{
+    color: #1A4A65;
+    margin-left: 550px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.arq{
+    background-color: #1A4A65;
+    height: 580px;
+    width: auto;
+    margin-bottom: 50px;
+}
+.imagem{
+    height: 200px;
+    width: 200px;
+    margin-top: 200px;
+    margin-left: 60PX;
+}
+.video{
+    margin-left: 500px;
+    width: 800px;
+    height: 500px;
+    margin-top: -350PX;
+}
+
+.arq1{
+    background-color: #B1CCD4;
+    height: 580px;
+    width: auto;
+    margin-bottom: 50px;
+}

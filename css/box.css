@@ -1,0 +1,72 @@
+.procurados{
+    color:rgb(245, 245, 245);
+    margin-right: 20px;
+    width: 400px;
+    font-size: 40px;
+    
+}
+.baixo{
+    background-color: #1A4A65;
+    margin-top: 60px;
+    width: 430px;
+    margin-left: 550px;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.baixo2{
+    background-image: linear-gradient(to bottom, #1A4A65, #B1CCD4);
+    margin-top: 60px;
+    width: 50%;
+    margin-left: 400px;
+    padding: 30px;
+    height: 650px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.nome{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:200px;
+}
+.ar{
+    height: 500px;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.baixo3{
+    background-image: linear-gradient(to bottom, #B1CCD4, #1A4A65);
+    margin-top: 60px;
+    width: 50%;
+    margin-left: 400px;
+    padding: 30px;
+    height: 650px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.tog{
+    margin-top: 50px;
+    width: 600px;
+    height: 500px;
+    margin-left: 40px;
+}
+.nome2{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:200px;
+}
+.baixo4{
+    background-image: linear-gradient(to bottom, #1A4A65, #B1CCD4);
+    margin-top: 60px;
+    width: 50%;
+    margin-left: 400px;
+    padding: 30px;
+    height: 650px;
+    display: inline-block;
+    border-radius: 20px;
+}
