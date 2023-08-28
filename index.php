@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+
   <link href="bibliotecas/bootstrap-5.3.0/css/bootstrap.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
   <meta charset="UTF-8">
@@ -9,7 +9,7 @@
 
 
 
-  <title>Document</title>
+  <title>Home</title>
 </head>
 
 <body>
@@ -17,6 +17,17 @@
   <?php
   include_once 'navbar.php';
   ?>
+
+    <?php include_once 'includes/metadados.php'?> 
+    <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+    <title>Bookverso</title>
+</head>
+
+<body>
+    <?php
+    include_once 'navbar.php';
+    ?>
+
 
 
   <div id="new" class="lancamento-livros">

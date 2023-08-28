@@ -9,23 +9,28 @@
 <body>
     <?php
 
- include_once 'conexao.php';
+ include_once './includes/conexao.php';
 
 if($con->connect_error){
     echo "<h1>Ocorreu um erro com o banco de dados, tente novamente</h1>";
     die();
     }
-    $nome= $_POST['nome'];
-    $email= $_POST['email'];
-    $senha= $_POST['senha'];
-    $telefone= $_POST['telefone'];
+    $nome= trim($_POST['nome']);
+    $email= trim($_POST['email']);
+    $senha= trim($_POST['senha']);
+    $telefone= trim($_POST['telefone']);
+
+    setcookie("nome", $nome);
+    setcookie("email", $email);
+    setcookie("senha", $senha);
+    setcookie("telefone", $telefone);
 
 
     $sql = "INSERT INTO cadastros VALUES(null, '$nome', '$email', '$telefone', '$senha')";
 
     $result = $con->query($sql);
     if ($result == true){
-        echo  "<p>deu certo</p>";
+        header('Location: index.php');
     }
     else if($result == false){
     echo "<p>Não foi possivel realizar o cadastro!</p>";

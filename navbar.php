@@ -2,17 +2,15 @@
 <html lang="en">
 
 <head>
-    <link href="bibliotecas/bootstrap-5.3.0/css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./css/nav.css" media="screen" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <?php include_once 'includes/metadados.php' ?>
+    <link rel="stylesheet" type="text/css" href="./css/nav.css">
+    <title></title>
 </head>
 
 <body>
     <div class="div-logo">
 
-        <img class="logo" src="./imgs/logo.png">
+        <a href="index.php"><img class="logo" src="./imgs/logo.png"></a>
         <div class="tools">
             <div class="cadastro">
                 <a href="cadastro.php" class="cadastro-link"> Cadastro </a>
