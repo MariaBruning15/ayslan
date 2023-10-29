@@ -86,7 +86,9 @@ height: 30px;
     flex: 1; /* Distribui espaço igualmente entre os links */
     height: 50px;
     margin-top: 10px;
-    width:25%;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
     color: rgb(251, 253, 253);
     text-decoration: none;
     
