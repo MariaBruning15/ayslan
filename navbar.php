@@ -1,14 +1,21 @@
+
+<?php 
+session_start();
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <?php include_once 'includes/metadados.php' ?>
+      
     <link rel="stylesheet" type="text/css" href="./css/nav.css">
     <title></title>
 </head>
 
 <body>
-    <div class="div-logo">
+    <div class="div-logo ">
 
         <a href="index.php"><img class="logo" src="./imgs/logo.png"></a>
         <div class="tools">
@@ -19,8 +26,16 @@
                 <a href="login.php" class="login-link"> Login </a>
             </div>
             <div class="perfil d-flex flex-column">
-                <a href="perfil.php"><img class="perfil-img" src="./imgs/perfil.png"></a>
-                <label for="" class="text-white mt-1 mx-auto">Nome</label>
+                <a href="painel.php"><img class="perfil-img" src="./imgs/perfil.png"></a>
+                <label for="" class="text-white mt-1 mx-auto">
+    <?php
+    if (isset($_SESSION["nome"])) {
+        echo $_SESSION["nome"];
+    } else {
+        echo "login";
+    }
+    ?>
+</label>
             </div>
             <div class="carrinho">
                 <a href="carrinho.php"><img class="carrinho-img" src="./imgs/carrinho.png"></a>
