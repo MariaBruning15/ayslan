@@ -1,56 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+include('conexao.php');
 
-<head>
-    <?php include_once 'includes/metadados.php' ?>
-    <title>Validar Login</title>
-</head>
+if(isset($_POST['email']) || isset($_POST['senha'])) {
 
-<body>
+    if(strlen($_POST['email']) == 0) {
+        echo "Preencha seu e-mail";
+    } else if(strlen($_POST['senha']) == 0) {
+        echo "Preencha sua senha";
+    } else {
 
-    <?php
-    $email = trim($_POST["email"]);
-    $senha1 = trim($_POST["senha"]);
+        $email = $mysqli->real_escape_string($_POST['email']);
+        $senha = $mysqli->real_escape_string($_POST['senha']);
 
-    setcookie("email", $email);
-    setcookie("senha", $senha1);
+        $sql_code = "SELECT * FROM cadastros WHERE email = '$email' AND senha = '$senha'";
+        $sql_query = $mysqli->query($sql_code) or die("Falha na execução do código SQL: " . $mysqli->error);
 
-    $host = "localhost";
-    $database = "database";
-    $usuario = "root";
-    $senha = "";
-    $con = new mysqli($host, $usuario, $senha, $database);
+        $quantidade = $sql_query->num_rows;
 
+        if($quantidade == 1) {
+            
+            $usuario = $sql_query->fetch_assoc();
 
-    if ($con->connect_error) {
-    ?>
-        <h1>Erro</h1>
-        <a href="login.php">Tentar novamente</a>
-        <?php
-    }
-    $sql = "SELECT * FROM cadastros WHERE email = '" .  $email . "'";
-    $result = $con->query($sql);
-
-    if ($result->num_rows > 0) {
-        while ($linha = $result->fetch_assoc()) {
-            if ($senha1 == $linha['senha']) {
-                header('Location: index.php');
-            } else {
-        ?>
-
-                <h1>Login errado</h1>
-                <a href="login.php">Tentar novamente</a>
-
-
-    <?php
-                die();
+            if(!isset($_SESSION)) {
+                session_start();
             }
+
+            $_SESSION['id'] = $usuario['id'];
+            $_SESSION['nome'] = $usuario['nome'];
+
+            header("Location: painel.php");
+
+        } else {
+            echo "Falha ao logar! E-mail ou senha incorretos";
         }
+
     }
 
-    ?>
-
-
-</body>
-
-</html>
+}  
