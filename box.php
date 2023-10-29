@@ -19,25 +19,25 @@ include('protect.php');
     <?php
     include_once 'navbar.php';
     ?>
-    
+
     <div class="baixo">
-        <div class="procurados">MAIS PROCURADOS</div>
+        <div class="procurados text-center">MAIS PROCURADOS</div>
     </div>
 
-    <div class="baixo2"> 
+    <div class="baixo2 justify-content-center">
         <div class="nome">O Povo do Ar</div>
-        <img class="ar" src="./imgs/boxAr.png"/>
+        <img class="ar" src="./imgs/boxAr.png" />
     </div>
 
-    <div class="baixo3"> 
+    <div class="baixo3 justify-content-center">
         <div class="nome2">Trono de Vidro</div>
-        <img class="tog" src="./imgs/togBox.png"/>
+        <img class="tog" src="./imgs/togBox.png" />
     </div>
 
-    
-    <div class="baixo4"> 
+
+    <div class="baixo4 justify-content-center">
         <div class="nome2">Percy Jackson</div>
-        <img class="tog" src="./imgs/percyBox.png"/>
+        <img class="tog" src="./imgs/percyBox.png" />
     </div>
 
     <?php include_once 'includes/scripts.php' ?>

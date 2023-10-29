@@ -101,6 +101,37 @@ include('protect.php');
 
         </div>
     </div>
+    <hr>
+
+    <div class="flex-container">
+
+        <div class="flex-item">
+            <img src="./imgs/autor7.jpg" alt="" style="width:190px; height:250px">
+            <h2>Holly Black</h2>
+            <p> Holly Black (nascida Riggenbachem 10 de novembro de 1971) é uma escritora e
+                editora americana mais conhecida por sua ficção infantil e juvenil. Seu trabalho mais recente
+                é a série O Povo do Ar, best-seller do New York Times para jovens adultos. Ela também é conhecida
+                por As Crônicas de Spiderwick, uma série de livros infantis de fantasia que ela criou com o escritor
+                e ilustrador Tony DiTerlizzi, e sua trilogia de estreia de romances para jovens adultos oficialmente
+                chamada de Contos de Fadas Moderno.
+                <br><br><a href="https://magisterium.fandom.com/pt-br/wiki/Holly_Black">Saiba mais</a>
+            </p>
+
+        </div>
+        <div class="flex-item">
+            <img src="./imgs/autor8.jpg" alt="" style="width:190px; height:250px">
+            <h2>Sarah J. Maas</h2>
+            <p>Sarah Janet Maas assina como Sarah J. Maas (Nova Iorque, 5 de março de 1986) é uma escritora norte-americana de fantasia.
+                Sua obra alcançou o patamar de best-seller do New York Times e USA Today.Seu livro de 
+                estreia: Trono de Vidro (Throne of Glass), foi publicado em português em 2013 pela 
+                Galera Record (no Brasil).Até 2021, ela
+                 vendeu mais de doze milhões de cópias de seus livros e eles foram traduzidos
+                  para trinta e sete idiomas.
+                <br><br><a href="https://acotarbrasil.com.br/biografia/">Saiba mais</a>
+            </p>
+
+        </div>
+    </div>
 
     </div>
 
