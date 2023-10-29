@@ -14,6 +14,7 @@ include('protect.php');
 </head>
 
 <body>
+ 
     Bem vindo ao Painel, <?php echo $_SESSION['nome']; ?>.
 
     <p>

@@ -11,7 +11,7 @@
 
  include_once './includes/conexao.php';
 
-if($con->connect_error){
+if($mysqli->connect_error){
     echo "<h1>Ocorreu um erro com o banco de dados, tente novamente</h1>";
     die();
     }
@@ -28,13 +28,13 @@ if($con->connect_error){
 
     $sql = "INSERT INTO cadastros VALUES(null, '$nome', '$email', '$telefone', '$senha')";
 
-    $result = $con->query($sql);
+    $result = $mysqli->query($sql);
     if ($result == true){
         header('Location: index.php');
     }
     else if($result == false){
     echo "<p>Não foi possivel realizar o cadastro!</p>";
-    echo "<p>" . $con->errno . ":" . $con->error . "</p>";
+    echo "<p>" . $mysqli->errno . ":" . $mysqli->error . "</p>";
     die();
     }
   
