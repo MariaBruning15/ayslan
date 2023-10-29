@@ -5,7 +5,9 @@
     <?php include_once 'includes/metadados.php' ?>
     <title>Login</title>
 </head>
-
+<?php
+    include("navbar.php");
+    ?>
 <body>
     <div class="container p-5 custom-background-color my-5 rounded-2">
         <h1 class="título custom-color text-center my-2 mb-4 fs-1 text fw-bold">Login</h1>

@@ -2,6 +2,8 @@
 
 include('protect.php');
 
+    include("navbar.php");
+    
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,10 +16,11 @@ include('protect.php');
 </head>
 
 <body>
+
+
     <div class="container p-5 custom-background-color my-5 rounded-2">
         <h1 class="título custom-color text-center my-2 mb-4 fs-1 text fw-bold">Painel</h1>
         <p class="p text-center fs-5 text"> Bem vindo ao Painel, <?php echo $_SESSION['nome'] ?>.</p>
-
 
 
         <div class=" container text-center">
