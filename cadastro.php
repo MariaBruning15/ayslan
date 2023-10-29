@@ -52,7 +52,7 @@
                     <input type="text" name="senha" class="form-control border-primary-subtle" placeholder="Senha" aria-label="senha" aria-describedby="basic-addon1">
 
                     <span class="input-group-text custom-background-color2 text-light border-primary-subtle" id="basic-addon1" style="margin-left:20px;">Telefone</span>
-                    <input type="text" name="telefone" class "form-control border-primary-subtle" placeholder="Telefone" aria-label="Telefone" aria-describedby="basic-addon1">
+                    <input type="text" name="telefone" class= "form-control border-primary-subtle" placeholder="Telefone" aria-label="Telefone" aria-describedby="basic-addon1">
                 </div>
 
                 <div class="col input-group mb-3">

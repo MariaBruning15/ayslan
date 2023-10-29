@@ -25,8 +25,7 @@ if($mysqli->connect_error){
     setcookie("senha", $senha);
     setcookie("telefone", $telefone);
 
-
-    $sql = "INSERT INTO cadastros VALUES(null, '$nome', '$email', '$telefone', '$senha')";
+    $sql = "INSERT INTO cadastros VALUES(null, '$email', '$senha', '$telefone', '$nome')";
 
     $result = $mysqli->query($sql);
     if ($result == true){
